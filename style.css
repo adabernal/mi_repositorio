@@ -37,19 +37,9 @@ p {
   color: white;
 }
 
-.contact {
-  position: relative;
-  min-height: 100vh;
-  padding: 50px 50 px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 /* Header Section */
 #header {
-  position: fixed;
+  flex: content;
   z-index: 1000;
   left: 0;
   top: 0;
@@ -300,9 +290,23 @@ p {
 }
 /* End Services Section */
 
-/* Conctact page */
-
-/* End Contact Page */
+/* Conctact section */
+#contact {
+  padding: 10rem 0;
+}
+#contact .wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+}
+#contact .wrapper .left,
+#conctat .wrapper .right {
+  flex: 1;
+}
+#contact .left .contact-heading {
+}
+/* End Contact section */
 
 /* Footer */
 #footer {
