@@ -37,6 +37,16 @@ p {
   color: white;
 }
 
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 50 px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* Header Section */
 #header {
   position: fixed;
@@ -290,6 +300,10 @@ p {
 }
 /* End Services Section */
 
+/* Conctact page */
+
+/* End Contact Page */
+
 /* Footer */
 #footer {
   background-color: rgb(15, 133, 149);
@@ -363,14 +377,12 @@ p {
   /* End Hero */
 
   /* Services Section */
-  #services .service-bottom .service-item{
-flex-basis: 45%;
-margin: 2.5%;
+  #services .service-bottom .service-item {
+    flex-basis: 45%;
+    margin: 2.5%;
   }
-
-  }
-  /* End Services Section */
-
+}
+/* End Services Section */
 
 /* End Media Query for tablet */
 
