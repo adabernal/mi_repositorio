@@ -334,7 +334,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 1.5rem;
   gap: 1rem;
 }
@@ -376,7 +376,7 @@ p {
 #contact .right .form-group label {
   margin-bottom: 0.5rem;
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 #contact .right .form-group .input-wrapper {
   background-color: white;
@@ -508,8 +508,8 @@ p {
     flex-basis: 45%;
     margin: 2.5%;
   }
+  /* End Services Section */
 }
-/* End Services Section */
 
 /* End Media Query for tablet */
 
@@ -545,3 +545,24 @@ p {
   /* End Services Section */
 }
 /* End Media Query for desktop */
+
+/* Media Query for phone */
+@media only screen and (max-width: 768px) {
+  /* Contact Section */
+  #contact .wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact .right {
+    width: 100%;
+    padding: 3rem;
+  }
+  #contact .right .form-wrapper {
+    padding: 3rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  /* End Contact Section */
+}
+/* End Media Query for phone */
